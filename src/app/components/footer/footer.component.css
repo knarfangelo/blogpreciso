@@ -1,0 +1,48 @@
+footer{
+  height: 130px;
+  background: #E16120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  max-width: 980px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+p{
+  display: flex;
+  flex-direction: row-reverse;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.buscar{
+  margin-left: auto;
+}
+a{
+  color: #fff;
+  text-decoration: none;;
+}
+
+@media (width < 800px){
+  ul{
+    display: none;
+  }
+  p{
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,43 @@
+nav{
+  max-width: 980px;
+  width: 80%;
+  margin: auto;
+}
+.logo{
+  left: 0;
+  right: 0;
+  margin: 40px auto;
+  display: flex;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.buscar{
+  margin-left: auto;
+}
+a{
+  color: #fff;
+  text-decoration: none;;
+}
+
+@media (width > 800px) {
+  nav{
+    display: block;
+  }
+  app-responsive{
+    display: none;
+  }
+}
+
+@media (width < 800px) {
+  nav{
+    display: none;
+  }
+  app-responsive{
+    display: block;
+  }
+}

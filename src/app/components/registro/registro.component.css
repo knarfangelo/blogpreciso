@@ -1,0 +1,60 @@
+header{
+  margin: auto;
+  max-width: 980px;
+  width: 80%;
+  margin-bottom: 76px;
+}
+main{
+  display: flex;
+  gap: 43px;
+  justify-content: space-between;
+}
+h1{
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+p{
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button{
+  display: flex;
+  height: 36px;
+}
+input{
+  border: 1px solid #4853B8;
+  background: #081933;
+  width: 70%;
+}
+button{
+  background: #383FEF;
+  color: #FFF;
+  border: none;
+  width: 30%;
+}
+
+.informacion{
+  width: 40%;
+}
+
+.registro{
+  width: 60%;
+}
+
+@media (width < 800px){
+  main{
+    flex-direction: column;
+  }
+  .informacion{
+    width: 100%;
+  }
+  .registro{
+    width: 100%;
+  }
+}
