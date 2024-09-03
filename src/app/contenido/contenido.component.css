@@ -84,6 +84,7 @@ p{
   margin: 0;
 }
 .items ul{
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,5 +100,17 @@ p{
   .etiquetas .fecha{
     margin-left: 0 ;
   }
-
+  .items{
+    position: static;
+ 
+  }
+  .items ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+  }
 }
