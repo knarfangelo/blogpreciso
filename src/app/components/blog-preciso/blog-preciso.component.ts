@@ -18,11 +18,12 @@ import { FooterComponent } from "../footer/footer.component";
     FooterComponent
 ],
   template: `
+  <header>
     <app-inicio></app-inicio>
     <app-novedades></app-novedades>
     <app-ultimo></app-ultimo>
     <app-registro></app-registro>
-    <app-footer></app-footer>
+    <app-footer></app-footer></header>
   `,
   styleUrl: './blog-preciso.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

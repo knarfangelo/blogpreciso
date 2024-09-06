@@ -1,3 +1,6 @@
-:host {
-  display: block;
+header{
+  background: linear-gradient(160deg, #64657A 0%, #022454 99.4%);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: auto;
 }

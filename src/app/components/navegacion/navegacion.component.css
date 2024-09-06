@@ -6,7 +6,8 @@ nav{
 .logo{
   left: 0;
   right: 0;
-  margin: 40px auto;
+  margin: 0 auto;
+  padding: 30px 0;
   display: flex;
 }
 ul,li{
