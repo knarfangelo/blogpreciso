@@ -4,6 +4,7 @@ nav{
   z-index: 100;
   width: 100%;
   top: 0;
+  background: linear-gradient(160deg, #64657A 0%, #022454 99.4%);
 }
 .barra{
   width: 100%;
