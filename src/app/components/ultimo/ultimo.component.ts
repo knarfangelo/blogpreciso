@@ -1,5 +1,5 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
-import { ChangeDetectionStrategy, Component, HostListener, Inject, PLATFORM_ID } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostListener, Inject, Input, PLATFORM_ID } from '@angular/core';
 import { BannerComponent } from "../banner/banner.component";
 import { ArticuloComponent } from "../articulo/articulo.component";
 
@@ -13,7 +13,7 @@ import { ArticuloComponent } from "../articulo/articulo.component";
 ],
   template: `
       <header>
-    <h1>Lo último de Preciso Group</h1>
+    <h1>{{title}}</h1>
     <app-banner [idarticulo]="2" class="row-reverse"></app-banner>
     <main>
     <app-articulo></app-articulo>
@@ -25,5 +25,5 @@ import { ArticuloComponent } from "../articulo/articulo.component";
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class UltimoComponent { 
- 
+  @Input() title = 'Lo último de Preciso Group';
 }

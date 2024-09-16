@@ -65,7 +65,7 @@ import { RegistroComponent } from "../components/registro/registro.component";
 </p>
       </main>
     </header>
-    <app-ultimo></app-ultimo>
+    <app-ultimo title="Noticias similares"></app-ultimo>
     <app-registro></app-registro>
     <app-footer></app-footer>
    </div>
