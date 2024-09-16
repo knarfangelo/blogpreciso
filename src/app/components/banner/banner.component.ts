@@ -20,7 +20,7 @@ import { articuloJSON } from '../../DB/articuloJSON';
           }
         </div>
         <p class="descripcion">{{articulos[idarticulo].descripcion}}</p>
-        <p class="tiempo">{{articulos[idarticulo].tiempo}}</p>
+        <p class="tiempo"><img class="reloj" src="icons/reloj.svg" alt="">{{articulos[idarticulo].tiempo}}</p>
       </section>
   `,
   styleUrl: './banner.component.css',

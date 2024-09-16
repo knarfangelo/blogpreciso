@@ -13,12 +13,27 @@ a{
   object-fit: cover;
 }
 h2{
-  color: #FFF;
+  color: var(--Schemes-On-Error, #FFF);
+  font-family: Oswald;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin: 0;
+}
+.tiempo{
+  color: var(--Schemes-On-Error, #FFF);
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.reloj{
+  margin-right: 10px;
 }
 .contenido{
   width: 50%;
@@ -30,6 +45,11 @@ h2{
   flex-wrap: wrap;
   margin: 15px 0;
   gap: 12px;
+  font-family: Oswald;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 .etiqueta:nth-child(1){
   color: #9BB848;

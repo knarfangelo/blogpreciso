@@ -20,7 +20,7 @@ import { IArticulo } from '../../DB/IArticulo';
       </div>
       <p class="descripcion">{{articulos[1].descripcion}}</p>
       <div class="fechas">
-        <p class="tiempo">{{articulos[1].tiempo}}</p>
+        <p class="tiempo"><img class="reloj" src="icons/reloj.svg" alt="">{{articulos[1].tiempo}}</p>
         <p class="fecha">{{articulos[1].fecha}}</p>
       </div>
     </article>
