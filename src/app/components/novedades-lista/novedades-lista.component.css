@@ -1,0 +1,36 @@
+header{
+
+  height: auto;
+  max-width: 980px;
+  width: 80%;
+  margin: auto;
+  min-height: 2000px;
+}
+/* Estilo para el contenedor principal */
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea una cuadrícula de 3 columnas */
+  gap: 55px; /* Espacio entre los elementos de la cuadrícula */
+  padding-top: 90px;
+}
+
+/* Estilo para cada artículo */
+app-articulo {
+  box-sizing: border-box;
+}
+.container{
+  background: linear-gradient(160deg, #64657A 0%, #022454 99.4%);
+}
+
+/* Responsividad */
+@media (max-width: 1200px) {
+  main {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas medianas */
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+  }
+}

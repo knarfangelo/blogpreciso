@@ -13,10 +13,10 @@ import { ResponsiveComponent } from "./responsive/responsive.component";
     <nav>
       <img class="logo" src="icons/logo.svg" alt="">
       <ul>
-        <li><a href="">TEMAS</a></li>
-        <li><a href="">TENDENCIAS</a></li>
+        <li><a href="">INICIO</a></li>
+        <li><a href="">NOVEDADES</a></li>
+        <li><a href="">NUESTROS TRABAJOS</a></li>
         <li><a href="">TECNOLOGIA</a></li>
-        <li><a href="">TESTIMONIOS</a></li>
         <li><a href="">NOTICIAS</a></li>
         <li class="buscar"><a href=""><img src="icons/buscar.svg" alt=""></a></li>
       </ul>
