@@ -3,7 +3,10 @@ article{
 }
 a{
   color: #fff;
+  width: 100%;
+  display: flex;
   text-decoration: none;
+  justify-content: space-between;
 }
 .imagen{
   width: 50%;

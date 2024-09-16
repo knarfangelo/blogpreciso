@@ -10,9 +10,11 @@ import { articuloJSON } from '../../DB/articuloJSON';
     CommonModule,
   ],
   template: `
+<a href="contenido">
       <img class="imagen" [src]="articulos[idarticulo].imagen" alt="">
       <section class="contenido">
-        <h2><a href="contenido">{{articulos[idarticulo].titulo}}</a></h2>
+         
+        <h2>{{articulos[idarticulo].titulo}}</h2>
         <p class="fecha">{{articulos[idarticulo].fecha}}</p>
         <div class="etiquetas">
           @for (item of articulos[idarticulo].etiqueta; track $index) {
@@ -21,7 +23,7 @@ import { articuloJSON } from '../../DB/articuloJSON';
         </div>
         <p class="descripcion">{{articulos[idarticulo].descripcion}}</p>
         <p class="tiempo"><img class="reloj" src="icons/reloj.svg" alt="">{{articulos[idarticulo].tiempo}}</p>
-      </section>
+      </section></a>
   `,
   styleUrl: './banner.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

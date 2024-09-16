@@ -62,6 +62,10 @@ img{
   margin-top: 27px;
   justify-content: space-between;
 }
+a{
+  text-decoration: none;
+  color: #fff;
+}
 .tiempo{
   color: #FFF;
   font-size: 12px;
