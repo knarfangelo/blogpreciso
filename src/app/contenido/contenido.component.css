@@ -15,6 +15,11 @@ header{
   max-width: 980px;
   margin: 60px auto;
 }
+.conteiner-gradient{
+  background: linear-gradient(160deg, #64657A 0%, #022454 99.4%);
+  width: 100%;
+  height:auto;
+}
 main{
   max-width: 600px;
   position: relative;

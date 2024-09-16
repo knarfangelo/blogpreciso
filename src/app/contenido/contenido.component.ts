@@ -16,6 +16,8 @@ import { RegistroComponent } from "../components/registro/registro.component";
     RegistroComponent
 ],
   template: `
+  <div class="conteiner-gradient">
+
     <app-navegacion></app-navegacion>
 
     <header>
@@ -66,6 +68,8 @@ import { RegistroComponent } from "../components/registro/registro.component";
     <app-ultimo></app-ultimo>
     <app-registro></app-registro>
     <app-footer></app-footer>
+   </div>
+
   `,
   styleUrl: './contenido.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
