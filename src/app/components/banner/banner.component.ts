@@ -12,7 +12,7 @@ import { articuloJSON } from '../../DB/articuloJSON';
   template: `
       <img class="imagen" [src]="articulos[idarticulo].imagen" alt="">
       <section class="contenido">
-        <h2><a href="">{{articulos[idarticulo].titulo}}</a></h2>
+        <h2><a href="contenido">{{articulos[idarticulo].titulo}}</a></h2>
         <p class="fecha">{{articulos[idarticulo].fecha}}</p>
         <div class="etiquetas">
           @for (item of articulos[idarticulo].etiqueta; track $index) {
